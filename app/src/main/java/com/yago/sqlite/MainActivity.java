@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         if (cursor != null){
             cursor.moveToFirst();
 
-            //varre o cursor e imprime
+            //varre o cursor e imprime o resultado
             while (!cursor.isAfterLast()){
 
                 //cursor.getString(colunaNome);
